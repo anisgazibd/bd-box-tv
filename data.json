@@ -6,7 +6,7 @@
   "alert_message": "",
   "home_video_url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
   "poster_url": "",
-  "online_count": 700,
+  "online_count": 200,
   "channels": {
     "-Ou32RR0AgEWM1jil2Ji": {
       "ended_at_date": "Jun 07, 2026",
@@ -427,5 +427,5 @@
       "name": "Ac"
     }
   },
-  "last_updated": "2026-06-09T18:34:12.124Z"
+  "last_updated": "2026-06-09T18:38:34.629Z"
 }
