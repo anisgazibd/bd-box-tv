@@ -396,9 +396,11 @@
       "name": "Somoy TV"
     },
     "-OuSC9WqR6y9r-ODxXoN": {
-      "link": "http://cdn.tv-rds.workers.dev/TYCSPT.m3u8",
+      "category": "SPORTS",
+      "link": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648693d43e67cef44382847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7fee70e46d16aa0b5014e917944fa83439fd501ead48253834b8475f8129c90f28e8118d3e4ab599975824e6912422ff9ba9bf2a3529bd5806035907067135005a6ebbff740299e1c037df6fbd9b06cfb539fd97ec14b7efb21885f8835bd6ea822aef501f5feec91111779ecef73550a8ca9e086f23e36fd41fea1e2d23a3cbafe06774acc2289717276c0b39b5ad4833899b42a89b1292e39c6905792d2e7d0b8fede1cee48a0a0d5963950416a0070e40cf2e00dd14b842f48affefa9afc225fb9c83afd29d8649ac6638b0c2beff9/97/640x360_1561904/index.m3u8",
       "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiOF4hxmXPcY3SSRqMt6hfuUTUTIa1HlZbA4Vk31H_e2jI-uWDbw39YGFGefXLVF7t1XLwlSwa_QJOhh_xC37MX3ohP9Kz-rJajTcd3C_3pn0b_u7IxeUUCF-GIfqJC-gBLBEPvrmID2NLHx4v0AvAQmvserh4zGc05HdxP22PE5V9fIHP3pChTgankRHc/s3264/1000033082.jpg",
-      "name": "TYC Sports  "
+      "name": "TYC Sports  ",
+      "tv_score_notice": ""
     },
     "-OuVCaBUe787O-uND3-e": {
       "link": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1780577244&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=312498c1ed128be3fbc5bcddf17d4ef5",
@@ -416,5 +418,5 @@
       "name": "Ac"
     }
   },
-  "last_updated": "2026-06-10T17:13:03.358Z"
+  "last_updated": "2026-06-10T17:23:44.011Z"
 }
