@@ -35,15 +35,15 @@
       "team2_name": "Afghanistan  "
     },
     "-Ou5Y2xeqNsP8T1RIE-i": {
-      "link": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/level_2.m3u8,\nhttps://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784&token=db1789e36c278bf538489fac263e&u=78be6644-0a65-48ec-81a4-089ac65a2619,\nhttps://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8,\n",
+      "link": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://premierleagpl23.akamaized.net/hls/live/2107108/tapmad-P2s6L_FiN@L-UrU/level_2.m3u8,\nhttps://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784&token=db1789e36c278bf538489fac263e&u=78be6644-0a65-48ec-81a4-089ac65a2619,\nhttps://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8,\nhttps://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409/variant/22100004.m3u8,\n",
       "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiqvTqvErD072YJWfK4x13zDO90NKLnGwOIgo3SorTwZBdeHcOLu6sSzfNjOJQ_G5FNJOVIw1ds8KCNnnlADShbzcd6pH5ekWPUNK6NI7hgNJuKv6xQiECu6SkjWO9ltwdnbrA5Tul92DgqcvL1_Ned2xfTbAojiYDHd7dOBqEkaIgBvdyCkZqYjJ4WxA/s100/1000032580.jpg",
       "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_KSR6Pzeh06qisQs_AbByzNVVpmkKXLzUSL2-w3BpFripHTgcFYF1vB9NyafzukekUfdsDNLNlTbUw61Rw8YewaJ7xUBP2c3pEtdgZ6ScuIyAzzXnQ7fzh6b99LQKiw5p2q1WHB3n7NSn4aCrvlBwbGJM_RtU_1rjBUm76MXGA3wdvrOKQr8H5-n3dJm/s100/1000032586.jpg",
-      "match_time": "2026-06-09T05:00:00.000Z",
-      "match_title": "Cricket  Match   -1",
+      "match_time": "",
+      "match_title": "Live  sports  ",
       "status": "LIVE",
       "tag": "HD",
-      "team1_name": "Bangladesh  ",
-      "team2_name": "Australia"
+      "team1_name": "Sports  ",
+      "team2_name": "Match   "
     },
     "-Ou5ocx-sKpOvNNOASR4": {
       "ended_at_date": "Jun 06, 2026",
@@ -416,5 +416,5 @@
       "name": "Ac"
     }
   },
-  "last_updated": "2026-06-10T16:58:14.485Z"
+  "last_updated": "2026-06-10T16:59:33.481Z"
 }
