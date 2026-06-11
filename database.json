@@ -1,0 +1,429 @@
+{
+  "admin_password": "1234",
+  "alert_message": "",
+  "banner_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQA94ecdiH7zgfP88x_VLQK7dqKvIrNoiWQVKo2o5_1_sfR4LAvn0Z_0QOcpdZ-cR-C9LCXG6b8FDchQE4N-2MR7N7n0UaMhJBzWQ_y1ndHkMhPgxYbKGEyQIORtllPVrNYmndUiON1YKG0Q9_X1d-ExMy2pHVjz7ErtudyGkmYeAQOoSrGHUw5ot8464N/s900/1000032616.jpg",
+  "channels": {
+    "-Ou32RR0AgEWM1jil2Ji": {
+      "ended_at_date": "Jun 07, 2026",
+      "finished_date": "2026-06-07T02:24:00.000Z",
+      "link": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8, https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjwOUpiDgJyX0Y2MY4swxplAvhzVVfDMbBlLYdN1XRbUUORKPf7Po98V2XAwFdMF5IG9s8mf7YPjcitMoUA9c5wuq_FLsd7nfUV3L149vArAShzrUS5MZBhRLsxCQQB_GMUoJYUStEmbM2S9bIp_q5U9aB0Xo8vF6HG0Qro4GQudPVUn3-EypUYvNUrNnB/s100/1000032596.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPnn5VnTypUd9bLcoT4geyMBp9iajZLr2SENpAz_8W4cExjvRsGjlHGcdUIUHP2xKGr8lJJxvxHOszvTN4Y6W2FTPoNBvKBzgkyoH5QMu8-0BWcBAQ6WdgHQpIx5tJbPJqjf_Gef3-MUkpCDJUzr8OHIx47-VOuPxjZqYsVHeXRRYEGtYXDAleDc0yc2dH/s100/1000032588.jpg",
+      "match_time": "2026-06-07T02:24:00.000Z",
+      "match_title": "Football  Match -2  ",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "Argentina",
+      "team2_name": "Honduras"
+    },
+    "-Ou5U3jBdPaGiyxGJIgE": {
+      "ended_at_date": "Jun 06, 2026",
+      "finished_date": "2026-06-04T16:00:00.000Z",
+      "link": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiqvTqvErD072YJWfK4x13zDO90NKLnGwOIgo3SorTwZBdeHcOLu6sSzfNjOJQ_G5FNJOVIw1ds8KCNnnlADShbzcd6pH5ekWPUNK6NI7hgNJuKv6xQiECu6SkjWO9ltwdnbrA5Tul92DgqcvL1_Ned2xfTbAojiYDHd7dOBqEkaIgBvdyCkZqYjJ4WxA/s100/1000032580.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDreQ9b2c0vcp1oWNgQI-8k_c0Bh5rIGfG9b0aL8505ERI8C9GL8msC8htcMoesN-43kj6HHeyXpTJ_shzuD69lnp91oJMx3TW5jKHzNicwoVQuZtXKASKm7BMhUZzzHYBcK0-2ubg-8Sd8pzi0Jrh2d29fYVDZ0f_nMpLUTgEIs2OsRxYoB_d-8kwVNy_/s1600/1000032578.png",
+      "match_time": "2026-06-04T16:00:00.000Z",
+      "match_title": "Football  Match   -1",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "Bangladesh  ",
+      "team2_name": "Afghanistan  "
+    },
+    "-Ou5Y2xeqNsP8T1RIE-i": {
+      "link": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://aegis-cloudfront-1.tubi.video/c2ac89da-5c69-439e-b85d-d87de0548b54/3.m3u8,\nhttps://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784&token=db1789e36c278bf538489fac263e&u=78be6644-0a65-48ec-81a4-089ac65a2619,\nhttps://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8,\nhttps://d4ddgdmj1cvnm.cloudfront.net/scheduler/scheduleMaster/409/variant/22100004.m3u8,\n",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiqvTqvErD072YJWfK4x13zDO90NKLnGwOIgo3SorTwZBdeHcOLu6sSzfNjOJQ_G5FNJOVIw1ds8KCNnnlADShbzcd6pH5ekWPUNK6NI7hgNJuKv6xQiECu6SkjWO9ltwdnbrA5Tul92DgqcvL1_Ned2xfTbAojiYDHd7dOBqEkaIgBvdyCkZqYjJ4WxA/s100/1000032580.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_KSR6Pzeh06qisQs_AbByzNVVpmkKXLzUSL2-w3BpFripHTgcFYF1vB9NyafzukekUfdsDNLNlTbUw61Rw8YewaJ7xUBP2c3pEtdgZ6ScuIyAzzXnQ7fzh6b99LQKiw5p2q1WHB3n7NSn4aCrvlBwbGJM_RtU_1rjBUm76MXGA3wdvrOKQr8H5-n3dJm/s100/1000032586.jpg",
+      "match_time": "2026-06-10T17:18:00.000Z",
+      "match_title": "Live  sports  ",
+      "status": "LIVE",
+      "tag": "HD",
+      "team1_name": "Sports  ",
+      "team2_name": "Match   "
+    },
+    "-Ou5ocx-sKpOvNNOASR4": {
+      "ended_at_date": "Jun 06, 2026",
+      "finished_date": "2026-06-06T22:00:00.000Z",
+      "link": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPnn5VnTypUd9bLcoT4geyMBp9iajZLr2SENpAz_8W4cExjvRsGjlHGcdUIUHP2xKGr8lJJxvxHOszvTN4Y6W2FTPoNBvK",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_lx5RZ4DK47Fo3Dx0w7YA614teqOnGyrq9y9I5Nw5MEp-zTDvki5bnHTz7HMzGDHaqoAzsJ4L6APcOC4F82Tc89TwDgVRtsYQ3Iqtv6QfQBgo2C3eCajPn4SdJHiab94DfLsHT80vT9iN8RhaqlWo7lEO_Gt6e1N1qEAurU1gDg6DfWnJUCm_kyxMKJU/s100/1000032605.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguqEA9wBX_fWAqUq0U0svjNXQ1JJivJWBSCABUDP9pNgSeFpnONHHt8fbpxot-acagEmaetlt-DDn7hd_SpbmKGt3zmb0-KIWx-bSN7ZXr88Apj61pi-tVjsNDr2Z51GcS25N8F3dEq80xserd0jlNbKUWg0_ENpNgFwnBSrUu-yM7pM0libiLsz1wBaaI/s100/1000032606.jpg",
+      "match_time": "2026-06-06T22:00:00.000Z",
+      "match_title": "Football  Match -3",
+      "status": "FINISHED",
+      "tag": "TOP",
+      "team1_name": "Brazil ",
+      "team2_name": " Egypt"
+    },
+    "-Ou7FKNVIOvExrLw6Eyl": {
+      "ended_at_date": "Jun 06, 2026",
+      "link": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBmfAzDtLyioAQcmkXfn-pZ9G6iF2Kg5mgsY7NLfMfLiEnrLiiLxu2x_y91hPBhrW8Jspq1QXfZMWP7Yj_xtFX0V_oeoBkwFhyxwAeyXVjVve96HUHNI0Vhrkb-FjC3VBiYOo49DTJGWRCy9pkynFMkudvHUK6helkH6fPQMy4ZUTZLNEAGGJ4szZ69wO6/s100/1000032639.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_KSR6Pzeh06qisQs_AbByzNVVpmkKXLzUSL2-w3BpFripHTgcFYF1vB9NyafzukekUfdsDNLNlTbUw61Rw8YewaJ7xUBP2c3pEtdgZ6ScuIyAzzXnQ7fzh6b99LQKiw5p2q1WHB3n7NSn4aCrvlBwbGJM_RtU_1rjBUm76MXGA3wdvrOKQr8H5-n3dJm/s100/1000032586.jpg",
+      "match_time": "",
+      "match_title": "Cricket  Match   -2",
+      "status": "FINISHED",
+      "tag": "Live",
+      "team1_name": "Pakistan ",
+      "team2_name": "Australia "
+    },
+    "-Ou8Q_cI9JOkTMVogaKq": {
+      "link": "https://live-tv-box-2.vercel.app/",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi01HU1m5XT5K7WcXqL2v2aQmITPsAUci3ISoCa61a7_H8BWkPKEmNk0664wzzuy5aisO4mY-EMciRr6OZEzS5y5h9oSpwPAI50wZaz089zg4mv0gt__ZsXpB4BDbo56_qE5iOACXbbIlta4Cqu-5m_LrOTflJgITHXkH-i8g07mg3_dv87j61W2srlt6cq/s100/1000032979.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjerj4BrX1-Tj201tEPOx_OOm5VhMSGYsyAX_MZ2GUBdQ4GNJ9ip7PdFmBvY94hTiRGYh49iLxMIeGWW9sjc4K-b6uGMM5JjPjyo7c4t2mVLRbxiJk4les8iWQwfLlEhK-DYxkcRY-XiyApm-C6-fmyKNweE9bhY04oyFKoV3QIuyVPulSh5HU7bayBYp52/s100/1000032978.jpg",
+      "match_time": "2026-06-11T19:00:00.000Z",
+      "match_title": "Mexico vs South Africa",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Mexico",
+      "team2_name": "South Africa"
+    },
+    "-Ou8Rb8DEjohbDc3iTZ6": {
+      "link": "https://live-tv-box-2.vercel.app/",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivPNrJsW6QNdjA2udVEFOKlPjF9bJACshxB0SXmVSgZVPU-Q75h0t0ZewH8Q8qXzcH29a8CkbCJjRFDfEFQf-j5vzqm_7OJtyeEyCjULdCQfEjz0Mti5j6wKIL0z4ZBAuhI2n3U11YSMg9uVL9RzdDNNjkU4Ma4iYm2xGvHJlRED9T49fg75h6egtU_FNY/s100/1000032977.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnloD8wx9bSsv6zZwIb4_j_ehQZp4-wMqwjk4pPLeT8au_w3nbuiZSQ0JGuTSC_H57XHAHKbdYt1SUGO7t0wMoq4mFKRJUpbfAvmFvob8fGPm_eOXUL0lULJ1YIUmO43-Rzs_dP0ymXVpwu1-faTEbINK_-ObqPB3dMHvsGHGiaDSS28Z03yeS_u9NEqd8/s100/1000032976.jpg",
+      "match_time": "2026-06-12T02:00:00.000Z",
+      "match_title": "Football  Match - 5",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "South Korea ",
+      "team2_name": "Czechia"
+    },
+    "-Ou8Sd60gliwYALeVNtP": {
+      "link": "https://live-tv-box-2.vercel.app/",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhroEuQopsvDpnHzSGe2348nuhujDWX3hUbZeKOSVZMEyU3CdiKe045Zm8dSkc0MqJyaTditrMh2rQjXbMht29e9V4PvnHxkrh4-w13t8HGOdghmK0s8l8sHtua9sy4oZaidf4LHydclC9y0pqtsSLDK7j45uq05sklyXBt2nF5TmEP9a7P0FDsbOCJTzHk/s100/1000032974.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEHkyE-kbGbWV7EhEySU2R9wdIMOsWo1RjRB6_SMpFmHQllYdlSAROHofYQTYm-Cp-O1qCxixSyeda_eimVc-XQHW5PP3oVozNwwU5_JpiZBBd9FHc0UtY7bURIlW3at7oceYa_x1sILucQDZ_4JoQE9NKHiqMhk6OVQP8ZPn-lTa2VzhgTmEYEqffszDi/s100/1000032975.jpg",
+      "match_time": "2026-06-12T19:00:00.000Z",
+      "match_title": "Football  Match - 6",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Canada",
+      "team2_name": " Bosnia"
+    },
+    "-Ou8TG3vkNdl-kJVCZBJ": {
+      "link": "https://live-tv-box-2.vercel.app/",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhctHVy2a_keE3CWAIaNkv-UMj7-3qFE7aBCsQc589ETAf0-wk_AQnoz0BQ6UXCZyOjhOI4U_Y0Q0IbcUhPNTNEzEGbjz-j7VQYwZyJCie9x5sfNPo7tUZRpUv0wppPMWQw2g70Pozm_Z17IkSydlRDvSLUbca1twtC64XCZeXMot3qT4qoa26K_boblXpf/s100/1000032972.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhukObSrtCP3irW2Y81OWMD0jP4lgMDQGKxuHj6wDQ7I6Qw-u7v7wpbcLUWGyUUxdERmpJy8ZB5voM1E76WufnqQWsBeJejLoduuWZEFE6MvjOx2kQ1lUQ7g5DxxHTSQFWy8cQDITfUrpB2Ymraq3gUEFUM915NIzD0e-gNBOEFMrqovMVUmi38vkhmwwuu/s100/1000032973.jpg",
+      "match_time": "2026-06-13T01:00:00.000Z",
+      "match_title": "Football  Match - 7",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "USA",
+      "team2_name": "Paraguay"
+    },
+    "-Ou8UuqzKaFMtgGpB7Rq": {
+      "link": "https://live-tv-box-2.vercel.app/",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwOYLHdkS9Z101Sgse_j4ytGx6D3wC3mXk6hR-NqRcRL9ph7kL2sGCJYYLOKDjM_HMpH4QRXzZpyiI20Srh5znEMVtpmJnQXdJXa6M2b3ykS78e4DHUUXE9JtRwtfaC4oBlrYjZEudM295Dc4wsUtHYyzMqaey4eDYWPG9Eju0N8AnxT2DYptrmujjv9TR/s100/1000032971.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaidXk1sf5rucjPdSDJGTQCKNuDn99C-neGEmyWfvIWmLAsd2Ut4Azk7K6UXbuoVVjmvnT8CUGmJJj-weCNpBcvd8rwjtyAxWwJxI4xUGzPe6emCzc_GXp5whCWeKY99ENswgQRcumbI7mE2S9wQfbvYAFGlsa-S5qMbnmRmJuhIiH4apjOHjnVzLtah7w/s100/1000032969.jpg",
+      "match_time": "2026-06-13T19:00:00.000Z",
+      "match_title": "Football  Match - 8",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Qatar",
+      "team2_name": "Switzerland"
+    },
+    "-Ou8vJ0Q_2nG1oyx2YI0": {
+      "ended_at_date": "Jun 09, 2026",
+      "finished_date": "2026-06-09T07:47:00.000Z",
+      "link": "<iframe src=\"https://streamcrichd.com/update/fetch.php?hd=15&embed=1\" width=\"100%\" height=\"500\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture\"></iframe>,\n<iframe src=\"https://streamcrichd.com/update/fetch.php?hd=66&embed=1\" width=\"100%\" height=\"500\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture\"></iframe>,\nhttps://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8,\nhttps://white-meadow-5b0f.sksuruj345.workers.dev/?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F161357%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1780964198-Kv4cPTAAP5YTi-8dbf5baf1d790d62af889829e2c975efe19eb65b-6aa36da319d3c3029555f3a0ac9dfeca&referer=https%3A%2F%2Fiframe.rumsport10.live%2F&ua=Mozilla%2F5.0%20(Linux%3B%20Android%2010%3B%20K)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Mobile%20Safari%2F537.36,\nhttps://white-meadow-5b0f.sksuruj345.workers.dev/?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F274839%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1780964198-Kv4cPTAAP5YTi-8dbf5baf1d790d62af889829e2c975efe19eb65b-f39b536cbf12a87b0bdd6bac2ac0fdde&referer=https%3A%2F%2Fiframe.rumsport10.live%2F&ua=Mozilla%2F5.0%20(Linux%3B%20Android%2010%3B%20K)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Mobile%20Safari%2F537.36",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJP3t6extuO0xlpSEGBjzYvHsdve7YOV8ebkXVU3eA8DxwHjLfLyRUtz349UTHKu-A_o-nzBJ6ZtOqofBH4nZhK2qjOd83ogBaFJvjxotj__0oi3E5V9TZacCkIeRnx_nnUA0xvcwagmzGmvA__vPD7AlvNZLVykeotzFJgKEWCwIyiMRrMPR4BdL2_wvi/s100/1000032985.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwQttWOgiDbn6QuUEAngV4Sv_4_Ci2R20VcfbXIhsz9mq7xFcmwsLLGuTgW0qc6ARzWl0A6dcHlrNRhs760DGsjSZrT9Te4OWykebqQ-wjBlkDvaLGPpCx5EHmI_NjCCV4DBkdP3oK6EQg44FjKb5HescXUBdXG4SWUNInGlZg8NdHXvtliaUSmXXEU6-2/s100/1000032984.jpg",
+      "match_time": "2026-06-09T07:47:00.000Z",
+      "match_title": "Md Anis ",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "TA",
+      "team2_name": "AT"
+    },
+    "-OuC1dkanFRdPVwZI5Lw": {
+      "ended_at_date": "Jun 06, 2026",
+      "link": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmBPYQXBKZ33fFXt6tibQl7bJ_6RZ1hbizxaQdZFUfHkMNKMRwdHobTBG5B80WwvAFVzQVzJlztjfahKqG336Tbr-mF1gu4x4SLyLMm75PmiK5CRu7NDSjIvaJlgWB9STs7ICPVFdPLkkS9OfIPzbC-_XR_BdkuFQ4Q5M5OqRjy1aLO2WV56r05yjDwcwx/s100/1000032685.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiqvTqvErD072YJWfK4x13zDO90NKLnGwOIgo3SorTwZBdeHcOLu6sSzfNjOJQ_G5FNJOVIw1ds8KCNnnlADShbzcd6pH5ekWPUNK6NI7hgNJuKv6xQiECu6SkjWO9ltwdnbrA5Tul92DgqcvL1_Ned2xfTbAojiYDHd7dOBqEkaIgBvdyCkZqYjJ4WxA/s100/1000032580.jpg",
+      "match_time": "",
+      "match_title": "Nepal VS  Bangladesh women  ",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "Nepal",
+      "team2_name": "Bangladesh"
+    },
+    "-OuD6X583COKc3SsM4Ec": {
+      "ended_at_date": "Jun 06, 2026",
+      "link": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJnhIJZloRjp1LCS2_uBxTdjk83xcqEjtQWaQTgOrIWU-8YHbjfMtVDiykYcKYSMd84jVLhTH2fyQN9CTz530j9mTGxxiWq0Dd_Dkn5srqiYyIJbTylKBeDjC3643VKunRQjCMMa7Rz2BKgRltUeGS3AKrURcnYCzti8cWPba2NVMo65FUjtklY1GfNpPn/s100/1000032982.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlwfWbT8eMZ4pBEueGcHEQkpfFpNF4-JWSotVqByC5KULWEWWhJa66I2u8_Q8-OEW-piE4NYqZx6ACn5PhEzMV-Gb4X2y4XBl_I8Zs8g8zT6IvrCX_4ORCVBiAre39tKVy_gHa0f4Gypu0YVOz6YS_dQK-QKxgBspkJVg8vq9yzvS2SfWWVdOE03Ak8ia8/s100/1000032983.jpg",
+      "match_time": "",
+      "match_title": "Sri Lanka vs West Indies",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "Sri Lanka",
+      "team2_name": "West Indies"
+    },
+    "-OuFcC7LMGanF1zgcFtl": {
+      "link": "https://www.google.com/search?gs_ssp=eJzj4tDP1TcwNig0N2D0YknLTEsEACHHBC4&q=fifa&oq=fi&gs_lcrp=EgZjaHJvbWUqEggEEC4YQxiDARixAxiABBiKBTIGCAAQRRg7MgYIARBFGDkyDAgCECMYJxiABBiKBTIMCAMQIxgnGIAEGIoFMhIIBBAuGEMYgwEYsQMYgAQYigUyDAgFEC4YQxiABBiKBTIMCAYQLhhDGIAEGIoFMg8IBxAAGEMYsQMYgAQYigUyEggIEAAYQxiDARixAxiABBiKBTISCAkQABhDGIMBGLEDGIAEGIoFMhgIChAuGEMYgwEYxwEYsQMY0QMYgAQYigUyDQgLEAAYgwEYsQMYgAQyDAgMEAAYQxiABBiKBTIKCA0QABixAxiABDINCA4QABiDARixAxiABNIBCDI0NDJqMGo3qAIUsAIB8QUZNAnRmEhrbvEFGTQJ0ZhIa24&client=ms-android-xiaomi-rvo2b&sourceid=chrome-mobile&ie=UTF-8#sie=lg;/m/0r4xs1m;2;/m/030q7;bs;hd;;;;2026-06-11T19:00:00Z;-1",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjC_lx5RZ4DK47Fo3Dx0w7YA614teqOnGyrq9y9I5Nw5MEp-zTDvki5bnHTz7HMzGDHaqoAzsJ4L6APcOC4F82Tc89TwDgVRtsYQ3Iqtv6QfQBgo2C3eCajPn4SdJHiab94DfLsHT80vT9iN8RhaqlWo7lEO_Gt6e1N1qEAurU1gDg6DfWnJUCm_kyxMKJU/s100/1000032605.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx_elLT_jQPBv4ka1Q7qmAsY2OEJsclnhcJm_w46hgcZHEyKLDwMgZ9TzGOXS9-_R7QSq-mSaG46TfZtj2No2V280f2Q5iR_DOWqALyvK1-s-ssjba4IhnL6gB2ZvucFCjrgeqNz6j0aq5QGf2kq2FdP5mHHk1ygMfPBNfIryk2sSAOshSlcZvvpShkqll/s100/1000032970.jpg",
+      "match_time": "2026-06-13T22:00:00.000Z",
+      "match_title": "FIFA - 2026 Group-C Brazil vs Morocco",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Brazil ",
+      "team2_name": "Morocco"
+    },
+    "-OuFdPIM26taMOcriwkh": {
+      "link": "www.hahahb",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUt2yv7p-WSJEaCDWt5QvfxqlkG3TzKPXxGX5xaVbBO4CdDPo5eS-1VoBLGokOCf2nPT8bxWH4_x7agr37dqVvzAaD3rFxREGIPrnAmisHbkwc_h_L0pvsQW6hG4IR_4YWI8DjrzGrxATLCWmQwDpzVi_Se9G2UzqLgAIODFqaNPK15MKX_1x6M0fbiXhZ/s100/1000032968.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1jdkXOBHuPrWAd8H7p-4S_aKG6k78cpUPLOkhp063gFed1mxqfCtmvdHKpkUeO0l4fNl0agS1ZUbR02_GsnRPpZMVXJ8gfppdnDaxzOMWrZeudt5ZUQyRFYGF9KRiOzt2nvUUizPZFLK4uQqSLWZd_cX6F9cJT6Y_4idO_Nujp2FmCK4Pf0tKCnU3KPht/s100/1000032967.jpg",
+      "match_time": "2026-06-14T01:00:00.000Z",
+      "match_title": "FIFA - 2026 Group-C Haiti vs Scotland",
+      "status": "UPCOMING",
+      "tag": "HOT",
+      "team1_name": "Haiti ",
+      "team2_name": "Scotland"
+    },
+    "-OuFe1ey8u_DhL-_vGoj": {
+      "link": "Www.gazi",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg_KSR6Pzeh06qisQs_AbByzNVVpmkKXLzUSL2-w3BpFripHTgcFYF1vB9NyafzukekUfdsDNLNlTbUw61Rw8YewaJ7xUBP2c3pEtdgZ6ScuIyAzzXnQ7fzh6b99LQKiw5p2q1WHB3n7NSn4aCrvlBwbGJM_RtU_1rjBUm76MXGA3wdvrOKQr8H5-n3dJm/s100/1000032586.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo87eCmXgmF7syyvgM-B84GlVxnfPLUQmQ92Oo7ewz0de-WLe6Cp8H971Evz4EorL4XaaF372RcecsnhQe2JR5ruChQ75qQobxIW98aZPsUF65sWkEqabi9i5H__5U32dmlP3zZdxJSiSkieMxmzWsozmgPXUkIVPHd9pIjJ-O7IGOSA7iDJoobvCPMvUA/s100/1000032966.jpg",
+      "match_time": "2026-06-14T04:00:00.000Z",
+      "match_title": "FIFA - 2026 Group-  Australia vs Türkiye",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Australia",
+      "team2_name": "Türkiye"
+    },
+    "-OuHwT83p_TWW1snwyGj": {
+      "link": "Www.gazi",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLYKALH7NUGOhz30HvG5AoWeKIOV_XfB1iivBnBiGUqUa_VHgA0gtRUaP9uMfPdVVImaZVCEkZelejgbUwWSFX6h1aO8t9Aw6ka-PxzWp7OPbyOYEsTc1jIM36UU39IK5vPHcPu_wd2xvja94BSDhCfnsUj7RQidML3GS3R1P-T-j3rhbs538VT3vfBfTN/s100/1000032965.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSzLl7XFrt1aWPZa3E_hYKg0RpmwwzAe2RcyJQn771hwJjTeqYwdwU7Rh_GWnTYo1FwPT88vzVpZ-SOyHJFGnvTzkyhDJBoorqItGShLxmQXXI_dt1AMLG3JAOLHmYH70c-2LRCTo-_vgAGfHaCHuYPkv4jsLoH4ERjaFtOhfeNjnymolYFQpwQopM0l5O/s100/1000032962.jpg",
+      "match_time": "2026-06-14T17:00:00.000Z",
+      "match_title": "FIFA - 2026 Group - E Germany vs Curaçao",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Germany",
+      "team2_name": "Curaçao"
+    },
+    "-OuHxczClyzPHzGgUHzt": {
+      "link": "Www.cjv",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh43zxnBvBnS-S2xSNmfSFSh-jep3JX-F6M5cFzysqvOPdOdmVXgXfVUFgv5MsIYvKeTXX1GBLLOe5QH-wSBJLF_fcIDtZnwmkql8_g8Cc1xMN80jFq7kzeJ5zbKbir6gqWx3CB-Fuqd2qlJ7ZP34VFJZkp1Tf2NM9-ZlbpjoT9KK5knVDaBbP_ME06Q_TI/s100/1000032963.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivEwxx9ONf0P7uZbE8AQkL-4oCauU5r1yjtQqHTlLYfbrsegV81Cvf2A705G9pY0ZrauXp_cj_txpWT1SiXD3bZ2R3O44iLWNM1qQ7DXJME9Az0NpTmUm3tbJu8cf6BZmhQfCGmEWLP1-XrFu7godSTvbgE5ULULVj2flNH8GbQXvNoUG37N28AJi-zQGG/s100/1000032964.jpg",
+      "match_time": "2026-06-14T20:00:00.000Z",
+      "match_title": "FIFA - 2026 Group -F Netherlands vs Japan",
+      "status": "UPCOMING",
+      "tag": "HD",
+      "team1_name": "Netherlands",
+      "team2_name": "Japan"
+    },
+    "-OuHz8-MQ8tZLsILxvVA": {
+      "link": "Www.comk",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvN_NUxcvfWjeTKuxgvl9r85QsTmQWZqnEgHaUSE_q8e5qei2uJQ8gkOfMytCcUqMuH1wtneeW-ro-DNOrFDGmrblT7fhStTpNPLSjyCDjqjv_KpxNa2SFaeNfySZWr4B_Ene83-39GuEW_eYFyGmwvQv-KId4OdPp8B2tDgcAsgNKX_kWJQCR_D63RIZE/s100/1000032961.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXCzB9XzNofPj4co2J9FRJZUPahN8CNdzCK_0MiJu-CfKUkh01N5DocX6dDAgowKE5UoiKXGzYV_Ma4_5uV7O_kM9-vLrWQliUuM2uvgTCMpgA_9blxnPGFu49ijS3eiKGKUjQDFyfz25kdvInMk04WaiAZOt3jfJ0-sYDyXfliDhJ_oLigNzAwsU3eyqV/s250/1000032960.png",
+      "match_time": "2026-06-15T11:00:00.000Z",
+      "match_title": "FIFA - 2026 Group -E Ivory Coast vs Ecuador",
+      "status": "UPCOMING",
+      "tag": "HOT",
+      "team1_name": "Ivory Coast ",
+      "team2_name": "Ecuador"
+    },
+    "-OuLHoieovDbtajN3ahd": {
+      "ended_at_date": "Jun 06, 2026",
+      "finished_date": "2026-06-05T17:00:00.000Z",
+      "link": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8?e=1779283784,\nhttps://premierleageplnew2.akamaized.net/hls/live/2107109/Nginx2341TAp/hdntl=exp=1780764970~acl=%2f*~data=hdntl~hmac=257b17229eda9fa3a0f34ce412589dc33af7d2de98e1894ae94662bd2945a80d/level_0.m3u8,\nhttp://27.124.71.27/T-Sports/index.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHCl2apZa-OdadTKioRWpdiwpvPgbMiUYGXX8lyNhuy0Zr-XaMZ-UpDGh6BcXDn4loBzofIuh7rGDd8gpgfc0ed0jY1_nVcfgjRkWGZz_CPK9aO-VlGeY3sdD_2uGupHbdoc5OfeiQK1ACxSyAO2zmOpdTECMcCBaZx3IlL4XKFL8in8fMwfGmZeo_X4cU/s100/1000032860.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiqvTqvErD072YJWfK4x13zDO90NKLnGwOIgo3SorTwZBdeHcOLu6sSzfNjOJQ_G5FNJOVIw1ds8KCNnnlADShbzcd6pH5ekWPUNK6NI7hgNJuKv6xQiECu6SkjWO9ltwdnbrA5Tul92DgqcvL1_Ned2xfTbAojiYDHd7dOBqEkaIgBvdyCkZqYjJ4WxA/s100/1000032580.jpg",
+      "match_time": "2026-06-05T17:00:00.000Z",
+      "match_title": "San Marino vs Bangladesh",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "San Marino ",
+      "team2_name": "Bangladesh"
+    },
+    "-OuN6sKV6y_vqH5BNCfd": {
+      "ended_at_date": "Jun 06, 2026",
+      "link": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVgVn2tPENB-Cc3LTcDc5c3gJhWTyXV6kSNumpkNz-a8baJrgVUzNnORl5gLc3RRNAEJZyJ3mObkbhyphenhyphenoW0rJFmZVXR7yRTfZWRy5FUyHozPskIq6NsHwVXGxa7o-WqYXmMI89nDclrxNjr2iV06iOUqVisPn9tI6NoWVrv_sZbBJRJduj7vr6Y57m43x2N/s100/1000032868.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilgHSws1WpDSKHNMTezAZJusQ63u8QiL5YwEmKH6nCSf_PNUV9NMkVWI8MEbIYL060rd7SwgRb90fztZtKKDvfDGPLlU2UooYF9XWD983RckX2kF68WkLG2oOazpQ91NYV7xMiOsjewsGUirbaEnWoSOZhWDKWuQxQPCkl2xJtrqU5tZS3EUK2EfZwlgsn/s100/1000032867.jpg",
+      "match_time": "",
+      "match_title": "England vs New Zealand",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "England",
+      "team2_name": "New Zealand"
+    },
+    "-OuQWf5wW3rhukFwxPOj": {
+      "ended_at_date": "Jun 08, 2026",
+      "link": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJHhp57NC2Rg3stWHR0TbKPdT9lYiEEvhVq5_mcKmRUWoraLJQL2Dd3iEjUsq3F_gRmf4aYNeY7gZBCw9N-H7o7Wyqk5c1pTO_J9xl4cyAShhh8GbodOldXIQsFEswufKd_weIKOTKdM3lyPQotk2Wvm1S7cB0Xp5ynaF7dBMzZ0FzbRqldo8-dMo-bNEj/s100/1000032922.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDreQ9b2c0vcp1oWNgQI-8k_c0Bh5rIGfG9b0aL8505ERI8C9GL8msC8htcMoesN-43kj6HHeyXpTJ_shzuD69lnp91oJMx3TW5jKHzNicwoVQuZtXKASKm7BMhUZzzHYBcK0-2ubg-8Sd8pzi0Jrh2d29fYVDZ0f_nMpLUTgEIs2OsRxYoB_d-8kwVNy_/s1600/1000032578.png",
+      "match_time": "2026-06-08T15:27:00.000Z",
+      "match_title": "India vs Afghanistan",
+      "status": "FINISHED",
+      "tag": "Football ",
+      "team1_name": "India ",
+      "team2_name": "Afghanistan"
+    },
+    "-OuS9n466kSDsyA9vjhm": {
+      "ended_at_date": "Jun 07, 2026",
+      "link": "https://tfwi0gr3uomttgr31hcttfa5dqmmcpf5gkcjqqb3g6cudctzga4mscwzgg55p.100ycdn.com/live1.pro2cdnlive.com/live/channel16/playlist.m3u8?wsSecret=f6c6461e022df3a1abc0ba1636ac8ff3&wsABSTime=1780788063&wsSession=3833061181ece8f99c767bb5-178075335932442&wsIPSercert=59a4818097935b45c70d358172314a65&wsBindIP=2&wsserid=1168278524587755016,\nhttps://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNiqvTqvErD072YJWfK4x13zDO90NKLnGwOIgo3SorTwZBdeHcOLu6sSzfNjOJQ_G5FNJOVIw1ds8KCNnnlADShbzcd6pH5ekWPUNK6NI7hgNJuKv6xQiECu6SkjWO9ltwdnbrA5Tul92DgqcvL1_Ned2xfTbAojiYDHd7dOBqEkaIgBvdyCkZqYjJ4WxA/s100/1000032580.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJHhp57NC2Rg3stWHR0TbKPdT9lYiEEvhVq5_mcKmRUWoraLJQL2Dd3iEjUsq3F_gRmf4aYNeY7gZBCw9N-H7o7Wyqk5c1pTO_J9xl4cyAShhh8GbodOldXIQsFEswufKd_weIKOTKdM3lyPQotk2Wvm1S7cB0Xp5ynaF7dBMzZ0FzbRqldo8-dMo-bNEj/s100/1000032922.jpg",
+      "match_time": "",
+      "match_title": "Bangladesh VS India ",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "Bangladesh ",
+      "team2_name": "India "
+    },
+    "-OuSJ12a5ZZAjSFPH0iY": {
+      "ended_at_date": "Jun 07, 2026",
+      "finished_date": "2026-06-06T22:00:00.000Z",
+      "link": "Ww.cob",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqXIjHpHfuIgLWqPBYrDjt-xR3bB6wVWiL0B8NXXG-TIug-UyDvghkt0JPpUBv4C90tNcaWVgriXmoTZxB_hmzwfI7lvQesqSZra1cSTQfJ_CFSK7w3Bhuqu2g8el7lqqIe4F67quJxNT3nI5xubWkVcZ3L8N585h3uTMEx0-YKjj7GmwiEBdE5TS4OkB6/s100/1000033001.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo87eCmXgmF7syyvgM-B84GlVxnfPLUQmQ92Oo7ewz0de-WLe6Cp8H971Evz4EorL4XaaF372RcecsnhQe2JR5ruChQ75qQobxIW98aZPsUF65sWkEqabi9i5H__5U32dmlP3zZdxJSiSkieMxmzWsozmgPXUkIVPHd9pIjJ-O7IGOSA7iDJoobvCPMvUA/s100/1000032966.jpg",
+      "match_time": "2026-06-06T22:00:00.000Z",
+      "match_title": "Venezuela vs Türkiye",
+      "status": "FINISHED",
+      "tag": "HOT",
+      "team1_name": "Venezuela",
+      "team2_name": "Türkiye"
+    },
+    "-OuTB1GC4GMbb4AXMSdh": {
+      "ended_at_date": "Jun 07, 2026",
+      "link": "https://white-meadow-5b0f.sksuruj345.workers.dev/?url=https%3A%2F%2Flivecdn-tc-iptv.rumsport10.live%2Flive_abr%2F143080%2F720p%2Fchunks.m3u8%3Fis_vip%3Dfalse%26token%3D1780857089-Kv4cPTAAP5YTi-2742867a3e650593b4fcaa0a3f733a38d4c6ea17-8e4431e097858ea87abb242c27de2282&referer=https%3A%2F%2Fiframe.rumsport10.live%2F&ua=Mozilla%2F5.0%20(Linux%3B%20Android%2010%3B%20K)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Mobile%20Safari%2F537.36",
+      "logo1": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsfgfclHwR9kCBE_rj14cn9rufNoT7NnXr9mTIaqCA7VOT2QEV2U7hqcFrUW6A107FKBeMnbzKd09gh6RaFDA4Ws4QLB_pdzdt4giR5E0yFrNKSMMhUNFej-Pi4E8V4JmyAUyVE4wl07LUBSUbZTFt5LEluwAK1RyzOsMtBc9hixGISISIob_0EiG744es/s100/1000033053.jpg",
+      "logo2": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXyN8vq3MFR9zONlkWo5Gj5ltz6H-Whs9o4tiQd7BEbjjGN_mspbOEhDCnjHgWUp6tnxZExbgOLEYB4gjYFiQIiLF7-m9nQOTlyk8bKkHM4riNUBLupsNw-EVS1l8T6BmERXPkLZnqlNpfd-ta4xN-m_qYz7zLTqjLM93qdFOghwTbMTQtst9kzO6jhHKA/s100/1000033052.jpg",
+      "match_time": "",
+      "match_title": "Friendlies Football  Match - Portugal vs Chile ",
+      "status": "FINISHED",
+      "tag": "HD",
+      "team1_name": "Portugal ",
+      "team2_name": " Chile"
+    },
+    "-Ou_tVcPPQyAyn4xTEGa": {
+      "ended_at_date": "Jun 09, 2026",
+      "link": "https://live.666666.zip/live/4541790.m3u8,\nhttps://pull.niues.live/live/stream-527384_lhd.m3u8?auth_key=1780948100-0-0-a7f66d1f5cfa14d8f57ce6d8e59f152a,\n",
+      "logo1": "https://placehold.co/100",
+      "logo2": "https://placehold.co/100",
+      "match_time": "2026-06-08T18:45:00.000Z",
+      "match_title": "Friendlies - Netherlands vs Uzbekistan",
+      "status": "FINISHED",
+      "tag": "Football  HD",
+      "team1_name": "Netherlands",
+      "team2_name": "Uzbekistan"
+    },
+    "-Ou_wcatP8lOb1ZZaB2o": {
+      "ended_at_date": "Jun 09, 2026",
+      "link": "chrome-extension://akkncdpkjlfanomlnpmmolafofpnpjgn/player/player.html#https://hls.cdnfaster-a.live/live/LEO/index.m3u8?expire=1923642660&sign=58990a132e2f8d3f764c947b95b28af6,\nhttps://tvc.ls55.site/playlist.m3u8,\nhttps://pull.niues.live/live/stream-484845_lhd.m3u8?auth_key=1780952600-0-0-a6aca885fb9ea9e5fee0bb35658f0582,\n",
+      "logo1": "https://placehold.co/100",
+      "logo2": "https://placehold.co/100",
+      "match_time": "2026-06-08T19:10:00.000Z",
+      "match_title": "Friendlies -France vs Northern Ireland",
+      "status": "FINISHED",
+      "tag": "Football ",
+      "team1_name": "France",
+      "team2_name": "Northern Ireland"
+    }
+  },
+  "home_video_url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+  "live_tv": {
+    "-Ou44q6Uo5hl9HHQStAK": {
+      "link": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8?e=1779283785",
+      "logo": "",
+      "name": "mahjbj"
+    }
+  },
+  "live_tv_channels": {
+    "-Ou4GOjfaQJthdCgPjeF": {
+      "category": "ENTERTAINMENT",
+      "link": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8?e=1779283785",
+      "logo": "https://placehold.co/100",
+      "name": "TV",
+      "tv_score_notice": "Hello vai"
+    },
+    "-Ou4GiRYi-8EQRRGnxbR": {
+      "category": "ALL",
+      "link": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784",
+      "logo": "https://placehold.co/100",
+      "name": "TV’S ",
+      "tv_score_notice": "Hi.?"
+    },
+    "-Ou4H7GKbMNOYgFesOen": {
+      "link": "https://amg02873-kravemedia-mtrspt1-distrotv-mnsrl.amagi.tv/ts-us-w2-n1/playlist/amg02873-kravemedia-mtrspt1-distrotv/cb573d1e786c648693d43e67cef44582847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7f7b40c14db6da7b2014dc67a42fa83439fd501b286d0588346d372f516ccc4f28cd54287e4ab599975824e6912422ff9ba9bf2a3529bd5806035907067135005a6ebbff740299e1c037df6fbd9b06cfb539fd97ec14b7efb21885f8835bd6ea822aef501f5feec91111779ecef73550a8ca9e086f23e36fd41fea1e2d23a3cbafe06774acc2289717276c0b39b5ad4833899b42a89b1292e39c6905792d2e7d0b8fede1cee48a0a0d5963950416a0070e40cf2e00dd14b8a2848afe582ccfd22fd7781195ef21fd8997628e5fda1ac04/70/1920x1080_5058864/index.m3u8",
+      "logo": "https://placehold.co/100",
+      "name": "TVA"
+    },
+    "-Ou82afBU46OO2Y1mQKR": {
+      "category": "SPORTS",
+      "link": "https://tvsen7.aynaott.com/foxsports2/tracks-v1a1/mono.ts.m3u8?e=1779283790",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF2_V2zA1SZaeGYDoi7XR0WECg2TJ6TBeJl1qlOhll1X_bH0RgCWlm-fdPIPWPY8QhDdWbp4f3besn78Rl7YL84kmc-jn-ir8ByGjFy67W_Cay5xVV7iKmvBLPnfpi0Fa7JjaT_E1PBvRYGmjCW9o1RjwsvWlDBM4qO_1oBx78BUV2Kr9OrSvjLHVF8ee5/s3264/1000033083.jpg",
+      "name": "FS2"
+    },
+    "-Ou83AR3FAsvkjSzJxfS": {
+      "category": "SPORTS",
+      "link": "https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgckprgUXSWiQNbRSzt9swz_3SZ8mhY8uZkzL8C_AKDisCAYbAsGmJTn-TI3cuk9RRV91BPEJzMPHyVkwb9kztEDWML0ET8PcHj62mqG_wExjUrzEbyuX9LGOI9Zs48mw66cbzgz8HtB1oONe7C_0UyjkI3WFeSwr-J6SH28PZ_1ichC7MCI-zuQlDSBvlP/s3264/1000033074.jpg",
+      "name": "FIFA  English  "
+    },
+    "-Ou83X_qzs_mCMDziaFj": {
+      "category": "SPORTS",
+      "link": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8?e=1779283784",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQNXWEic0TDDWGGuzAw7DoFgna6oz5PhSlwJ4YmIKhDNtI0vLzWL-JAUWmbnVpsvmXAuTaunq4uTOZTUeONkO6s_ptiJ33UFOiLUNRDJKiHk3vCMVrhUeJxv1fIgS30QOvC0UVLKvgtpq4pBUXkYogQ6ZiyXMDbA-oL4bbhBlkIIFGSFB8IKiyDY9twwld/s3264/1000033071.jpg",
+      "name": "PTV Sports  "
+    },
+    "-Ou83gMFD1v8ArqAje6Z": {
+      "link": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8?e=1779283785",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQNj6svZTiktA8zTGwn5g_4L82qsKpJUyfbJ3ymyOH2joE5l59bi_Lb_tBL4wGrD1BOXiD31di8tAclPGjzNnKMDqww9bDwxYZ-Bajjj0Kytcm48Nh4t_dW3lAMWNZYqwtRmmYQkHp2YD2vHM_pRXwZhr8guxaSFy1NH-Av65r5Bgd7VmER76df6Sw33xv/s3264/1000033070.jpg",
+      "name": "A Sports  "
+    },
+    "-Ou83xDyh3zqqAfPUZ7_": {
+      "link": "https://tvsen7.aynaott.com/tsn2/tracks-v1a1/mono.ts.m3u8?e=1779283793",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLhA-C0Q3nRcJM6NcQPTsR1EzJ-B6sh5eTGLy5tkL6fqvAtp8mg7ORillCWtxpKrNA-NuYV5_yOPZJ0jPV0bZsV9WWhRjIYKCsbJetJGyEf1_TBfLSg2XzBRwJ8Wa3aOfqeIcH3fBkVbbKk5f1T9tnbLOvZgi25mOz1BK9T1QdZoF_qqOaLtdyVvJ7l17Y/s3264/1000033084.jpg",
+      "name": "TSN2"
+    },
+    "-OuCQiQ2h8QtnybpSapr": {
+      "link": "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/bitrate_3.m3u8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisHov3baDJosi9gVhTLLhwcNkDJpgxHk0wuTtazeHcgnepTjnaJqBunOmxj3Dh7fDPcmLzcA4AQZXZmQuH9BYMltuESDSk1JnliteN7FsVYD6VI1n6WGcCon9Qy8gQL-pbMdczugpYDH5HixAxyv_JUxCxDfhG1OxkTO9GLSQs7dLrJtnTEAhywSu23klj/s3264/1000033078.jpg",
+      "name": "Real Madrid "
+    },
+    "-OuCS6Tvr2TFkuVtMgYD": {
+      "link": "https://37b4c228.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/6f5437c5-e015-4754-8476-c8c6d27d3a55/1.m3u8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWRxVD17vJbSg36KgEJ2rqxxm4du1PLl9pWp_beHXOHat1_boDcBGJ9Uo-GaqNbhj1XP8RaXgqtMX1v7kGklq1SLb5Yw6cuYHvpk2jqRpZrL4pWRuu14c4BXJHTd7Q7GNfZ_CzupnabbfKiaQYUIHWEdXetQc38Hx1o1KZu4hz2dO3EPgnUBVs1M15W_2i/s3264/1000033073.jpg",
+      "name": "FIFA English Plus  "
+    },
+    "-OuCSyog1Bpehk6rCNTk": {
+      "link": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=1998800.m3u8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEga0RujayaRjwnFU8N-Mkj4KMMkgorMseQvMAptaKQmKy-GoL1qJF3zKk9nxOWG-rqr-IAA8HGf58XYUOCq5MBwNDtK-MgUGsND4eunQ45Xgxq4pwv4E_dXynF__0_XLckT4vjc9QVNiXr1HEJv-ejgnlc4Npu5Fs_7b0RUOuP_x3-0E4sMzXcJgZA_R0OC/s3264/1000033072.jpg",
+      "name": "B TV"
+    },
+    "-OuNTQ-W3ArYFLIcMyIM": {
+      "link": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702-audio_113322_eng=113200-video=2202800.m3u8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjniFaSlZwRo39g896e5B6NCWntf1NCGI2eEZPEFwvuoRS6cyGDccn9hrjp6ybTxlYIIumFa_AzNRlaO-zeepOMFrulcp_Il5snW2TDRbbWNcLy6MWr81aC-rMBYoSGHdlJC8C9Vql7sBHjcXjei482Ac-du_2QIZJhsILzyXUdjJS7g-eJDu-PHrMqGALi/s3264/1000033069.jpg",
+      "name": "Somoy TV"
+    },
+    "-OuSC9WqR6y9r-ODxXoN": {
+      "category": "SPORTS",
+      "link": "https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/cb573d1e786c648693d43e67cef44382847b3dcb0e6c886470af4a9765d96300dbf9b9c8fd3ab13c1ec0468a710b6d5a4d1cd209af3c419b8b1dfd034f25536b9f9bb565da9f0211c9a06b5756af6a4208a55b05a7700079d6a05a2b8d2fba74005cb95a371862c3ed47ad662f9ad253d72a39e8fc8b307b24455a9c5a43e6a64cb7fee70e46d16aa0b5014e917944fa83439fd501ead48253834b8475f8129c90f28e8118d3e4ab599975824e6912422ff9ba9bf2a3529bd5806035907067135005a6ebbff740299e1c037df6fbd9b06cfb539fd97ec14b7efb21885f8835bd6ea822aef501f5feec91111779ecef73550a8ca9e086f23e36fd41fea1e2d23a3cbafe06774acc2289717276c0b39b5ad4833899b42a89b1292e39c6905792d2e7d0b8fede1cee48a0a0d5963950416a0070e40cf2e00dd14b842f48affefa9afc225fb9c83afd29d8649ac6638b0c2beff9/97/640x360_1561904/index.m3u8",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiOF4hxmXPcY3SSRqMt6hfuUTUTIa1HlZbA4Vk31H_e2jI-uWDbw39YGFGefXLVF7t1XLwlSwa_QJOhh_xC37MX3ohP9Kz-rJajTcd3C_3pn0b_u7IxeUUCF-GIfqJC-gBLBEPvrmID2NLHx4v0AvAQmvserh4zGc05HdxP22PE5V9fIHP3pChTgankRHc/s3264/1000033082.jpg",
+      "name": "TYC Sports  ",
+      "tv_score_notice": ""
+    },
+    "-OuVCaBUe787O-uND3-e": {
+      "link": "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1780577244&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=312498c1ed128be3fbc5bcddf17d4ef5",
+      "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvOQgPA4AoKd4TJZpwY_L31bN5Mth7EbkGuRf9_zT6C_apWV8t5kpOL18jSzIygC3o2cRoGL3NjLlGIcft1kGiQMxHWjZEVqmF1-mC7-PPV69E0geTyA-XvyxInjELLkAkNk5D0zk-jyeQi1eoxhxq75n-k-5k888p3LR_KdKc-5YyHgtnKoVtGroOL_X3/s3264/1000033068.jpg",
+      "name": "T Sports"
+    },
+    "-OuVNuymAJDBxrC82V1x": {
+      "link": "<iframe src=\"https://streamcrichd.com/update/fetch.php?hd=15&embed=1\" width=\"100%\" height=\"500\" scrolling=\"no\" frameborder=\"0\" allowfullscreen allow=\"autoplay; encrypted-media; fullscreen; picture-in-picture\"></iframe>",
+      "logo": "https://placehold.co/100",
+      "name": "Eurosport HD"
+    },
+    "-OuWpmJL4X_n1t6OdmQx": {
+      "link": "<iframe   src=\"https://www.sportbusy.com/embed\"   width=380   height=\"500\"   style=\"border:none;border-radius:12px;overflow:hidden\"   loading=\"lazy\"   title=\"SportBusy Calendar Widget\" ></iframe>",
+      "logo": "https://placehold.co/100",
+      "name": "Ac"
+    }
+  },
+  "match_score_notice": "hi",
+  "notice": "📶 নেটওয়ার্ক প্রবলেম এর কারনে , ভিডিওটি প্লে হতেই ৫ থেকে ১০ সেকেন্ড সময় নিতে পারে। তারপরও ভিডিও প্লে হতে সমস্যা হলে পেজটিকে ১ থেকে ২ বার রিলোড করুন , আশা করি সমস্যা সমাধান হয়ে যাবে ইনশাআল্লাহ। সব সময় লাইভ খেলা দেখতে চাইলে আমাদের টেলিগ্রাম গ্রুপে জয়েন হয়ে থাকতে পারেন। সাথে থাকার জন্য ধন্যবাদ, 🥰",
+  "online_count": 400,
+  "poster_url": "",
+  "telegram_link": "https://t.me/BD_BOX_TV_LIVE"
+}
