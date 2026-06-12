@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:css='false' b:defaultwidgetversion='2' b:layoutsVersion='3' b:responsive='true' b:templateUrl='custom' b:templateVersion='1.0.0' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title><data:blog.pageTitle/></title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.10.0/video-js.min.css" rel="stylesheet" />
+    
+    <b:skin><![CDATA[
+        :root {
+            --primary-red: #e11d48;
+            --dark-bg: #09090b;
+            --card-bg: #18181b;
+            --text-gray: #a1a1aa;
+        }
+
+        body { background-color: var(--dark-bg); color: white; font-family: 'Poppins', sans-serif; margin: 0; padding-bottom: 80px; overflow-x: hidden; }
+        .sidenav { height: 100%; width: 0; position: fixed; z-index: 1000; top: 0; left: 0; background-color: #000; overflow-x: hidden; transition: 0.3s; padding-top: 60px; border-right: 1px solid #27272a; }
+        .sidenav a { padding: 15px 25px; text-decoration: none; font-size: 16px; color: white; display: flex; align-items: center; gap: 15px; transition: 0.3s; border-bottom: 1px solid #18181b; }
+        .sidenav a i { width: 25px; text-align: center; color: var(--primary-red); }
+        .sidenav .closebtn { position: absolute; top: 10px; right: 25px; font-size: 30px; border: none; }
+        .overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 999; }
+        .header { display: flex; justify-content: space-between; align-items: center; padding: 15px; background: #000; position: sticky; top: 0; z-index: 998; }
+        .logo-text { font-size: 22px; font-weight: 800; color: white; letter-spacing: 2px; }
+        .logo-text span { color: var(--primary-red); }
+        .header i { cursor: pointer; transition: opacity 0.2s; }
+        .header i:hover { opacity: 0.8; }
+        .notification-wrap { position: relative; display: inline-block; }
+        .notification-badge { position: absolute; top: -6px; right: -8px; background-color: var(--primary-red); color: white; font-size: 10px; font-weight: bold; border-radius: 50%; padding: 1px 5px; min-width: 12px; text-align: center; }
+        .update-bar { background: #450a0a; display: flex; padding: 10px; font-size: 13px; align-items: center; overflow: hidden; box-sizing: border-box; width: 100%; }
+        .update-tag { background: var(--primary-red); padding: 2px 8px; border-radius: 4px; margin-right: 10px; font-weight: bold; white-space: nowrap; z-index: 2; }
+        #notice-wrapper { flex: 1; overflow: hidden; display: flex; align-items: center; }
+        #notice { width: 100%; white-space: nowrap; color: #ffffff; font-weight: bold; }
+        .score-bar { background: #1e1b4b; display: flex; padding: 10px; font-size: 13px; align-items: center; overflow: hidden; box-sizing: border-box; width: 100%; border-bottom: 1px solid #2e2a75; }
+        .score-tag { background: #facc15; color: #000; padding: 2px 8px; border-radius: 4px; margin-right: 10px; font-weight: bold; white-space: nowrap; z-index: 2; }
+        .score-wrapper { flex: 1; overflow: hidden; display: flex; align-items: center; }
+        .score-marquee { width: 100%; white-space: nowrap; color: #ffffff; }
+        .top-actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; padding: 15px; }
+        .action-btn { padding: 10px; border-radius: 8px; text-align: center; font-size: 12px; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 5px; text-decoration: none; color: white; cursor: pointer; }
+        .btn-alert { background: #facc15; color: black; }
+        .btn-online { background: #22c55e; }
+        .btn-join { background: var(--primary-red); }
+        .slider-box { width: 95%; margin: 0 auto 15px; border-radius: 15px; overflow: hidden; border: 2px solid #27272a; }
+        .slider-box img { width: 100%; display: block; height: auto; max-height: 180px; object-fit: cover;}
+        .player-container { width: 100%; background: #000; margin-bottom: 15px; position: relative; }
+        .video-js { width: 100% !important; height: auto !important; }
+        .cat-scroll { display: flex; gap: 10px; padding: 0 15px 15px; overflow-x: auto; scrollbar-width: none; }
+        .cat-scroll::-webkit-scrollbar { display: none; }
+        .cat-item { background: #1f1f23; padding: 8px 16px; border-radius: 20px; font-size: 13px; white-space: nowrap; color: var(--text-gray); cursor: pointer; display: flex; align-items: center; gap: 8px; font-weight: 600; letter-spacing: 0.5px; transition: all 0.2s ease; }
+        .cat-item.active { background: var(--primary-red); color: white; }
+        .cat-count { background: rgba(255, 255, 255, 0.15); color: var(--text-gray); font-size: 11px; padding: 1px 7px; border-radius: 12px; font-weight: bold; }
+        .cat-item.active .cat-count { background: white; color: var(--primary-red); }
+        .channel-section { padding: 0 15px; }
+        .channel-card { background: #121214; border-radius: 24px; margin-bottom: 18px; border: 1px solid #222226; overflow: hidden; position: relative; cursor: pointer; transition: all 0.2s ease; padding: 5px; }
+        .channel-card.live-card { border: 1.5px solid #bd1c3c; box-shadow: 0 0 10px rgba(225, 29, 72, 0.15); }
+        .hot-tag { position: absolute; top: 0; right: 0; background: var(--primary-red); padding: 4px 14px; border-bottom-left-radius: 14px; font-size: 11px; font-weight: bold; display: flex; align-items: center; gap: 4px; z-index: 5; }
+        .card-header { margin: 10px 10px 0 10px; padding: 12px 15px; font-size: 14px; font-weight: 700; color: #ffffff; border-radius: 12px; background: #09090b; text-align: center; box-sizing: border-box; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .card-body { display: grid; grid-template-columns: 1fr 1.2fr 1fr; align-items: center; justify-items: center; padding: 20px 10px; }
+        .team-box { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 10px; width: 100%; }
+        .ch-logo { width: 65px; height: 65px; border-radius: 50%; border: 2px solid #3f3f46; object-fit: cover; background: #000; }
+        .team-name { font-size: 13px; font-weight: 700; color: #ffffff; text-align: center; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
+        .status-box { text-align: center; display: flex; flex-direction: column; always-justify-content: center; align-items: center; width: 100%; }
+        .live-now-text { color: #fff; background: #ef4444; padding: 6px 14px; border-radius: 20px; font-weight: 800; font-size: 12px; letter-spacing: 0.5px; text-transform: uppercase; animation: blink 1.5s infinite; }
+        .upcoming-time { color: #22c55e; font-weight: 800; font-size: 15px; margin-bottom: 2px; }
+        .upcoming-date { color: #88888c; font-size: 11px; font-weight: 500; margin-bottom: 4px; }
+        .upcoming-countdown { color: #facc15; font-weight: 700; font-size: 12px; }
+        .finished-box { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; }
+        .finished-date-text { color: #88888c; font-size: 14px; font-weight: 700; letter-spacing: 0.5px; }
+        .finished-text { color: #000000; background: #facc15; padding: 6px 18px; border-radius: 15px; font-weight: 800; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+        @keyframes blink { 50% { opacity: 0.4; } }
+        #live-tv-view { display: none; padding-bottom: 20px; }
+        .live-tv-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding: 15px; }
+        .tv-channel-box { background: #18181b; border-radius: 15px; padding: 15px 5px; text-align: center; border: 1px solid #27272a; cursor: pointer; transition: 0.3s; }
+        .tv-channel-box:active { transform: scale(0.95); }
+        .tv-channel-box img { width: 55px; height: 55px; border-radius: 50%; margin-bottom: 8px; background: white; padding: 2px; object-fit: contain; }
+        .tv-channel-name { font-size: 11px; font-weight: 600; color: white; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .search-container { padding: 0 15px 15px 15px; display: none; transition: all 0.3s ease; }
+        .search-box-wrapper { position: relative; display: flex; align-items: center; }
+        .search-box-wrapper input { width: 100%; padding: 10px 40px 10px 15px; background: #18181b; border: 1px solid #27272a; border-radius: 10px; color: white; font-size: 13px; outline: none; }
+        .search-box-wrapper input:focus { border-color: var(--primary-red); }
+        .search-box-wrapper i { position: absolute; right: 15px; color: var(--text-gray); font-size: 14px; }
+        .bottom-nav { position: fixed; bottom: 0; width: 100%; background: #09090b; display: grid; grid-template-columns: 1fr 1fr 1fr; padding: 12px 0; border-top: 1px solid #27272a; z-index: 998; }
+        .nav-item { text-align: center; color: var(--text-gray); font-size: 11px; text-decoration: none;}
+        .nav-item i { font-size: 18px; display: block; margin-bottom: 4px;}
+        .nav-item.active { color: var(--primary-red); }
+        .details-header { display: flex; align-items: center; justify-content: space-between; padding: 15px; background: #000; }
+        .back-btn { background: #1f1f23; color: white; border: none; padding: 8px 16px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 6px; }
+        .details-title { font-size: 18px; font-weight: 800; color: white; }
+        .server-section-title { color: var(--primary-red); font-size: 16px; font-weight: 800; display: flex; align-items: center; gap: 8px; margin: 20px 0 12px 0; justify-content: center; }
+        .server-btn-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 0 10px; }
+        .server-stream-btn { background: #121214; border: 1px solid #222226; color: white; padding: 14px; border-radius: 12px; font-size: 14px; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; transition: all 0.2s; }
+        .server-stream-btn:hover { border-color: var(--primary-red); background: #1c1c21; }
+        .server-stream-btn:last-child:nth-child(odd) { grid-column: span 2; }
+        .vs-text { font-style: italic; font-weight: 900; font-size: 24px; color: #ef4444; margin-bottom: 2px; }
+    ]]></b:skin>
+</head>
+<body>
+    <b:section id='main' showaddelement='no'>
+        <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'>
+            <b:includable id='main'>
+                <div style='display:none;'><b:loop values='data:posts' var='post'><div class='post-data-source'></div></b:loop></div>
+            </b:includable>
+        </b:widget>
+    </b:section>
+
+    <div id="sideNav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">×</a>
+        <a href="https://t.me/Gaza_save" target="_blank" id="telegram-menu-link"><i class="fab fa-telegram-plane"></i> Contact Us</a>
+        <a href="javascript:void(0)" onclick="alert('© 2026 BD BOX TV. All Rights Reserved.')"><i class="fas fa-copyright"></i> Copyright</a>
+        <a href="javascript:void(0)" onclick="alert('BD BOX TV is a premium IPTV service providing high-quality live streaming content.')"><i class="fas fa-info-circle"></i> About Us</a>
+    </div>
+    <div id="overlay" class="overlay" onclick="closeMenu()"></div>
+
+    <div id="home-page-view">
+        <div class="header">
+            <i class="fas fa-bars" onclick="openMenu()"></i>
+            <div class="logo-text">BD BOX <span>TV</span></div>
+            <div style="display:flex; gap:18px; align-items: center;">
+                <i class="fas fa-cog" id="setting-icon"></i>
+                <div class="notification-wrap" id="bell-icon">
+                    <i class="fas fa-bell"></i>
+                    <span class="notification-badge" id="noti-count">0</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="update-bar">
+            <span class="update-tag">NOTICE</span>
+            <div id="notice-wrapper">
+                <marquee id="notice" scrollamount="4">আপডেট লোড হচ্ছে...</marquee>
+            </div>
+        </div>
+
+        <div class="top-actions">
+            <div class="action-btn btn-alert" id="alert-btn"><i class="fas fa-exclamation-triangle"></i> Alert</div>
+            <div class="action-btn btn-online" id="online-btn"><i class="fas fa-users"></i> Online: 0</div>
+            <a href="#" target="_blank" class="action-btn btn-join" id="join-btn"><i class="fab fa-telegram"></i> Join Now</a>
+        </div>
+
+        <div class="slider-box">
+            <img id="banner-img" src="https://sinvar.com/wp-content/uploads/2022/11/FIFA-World-Cup-Banner.jpg" alt="Banner"/>
+        </div>
+
+        <div class="player-container">
+            <video id="home-video" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="controls" preload="auto" poster="">
+                <source src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8" type="application/x-mpegURL"/>
+            </video>
+        </div>
+
+        <div class="cat-scroll" id="category-container">
+            <div class="cat-item active" onclick="filterCategory('ALL')">ALL <span class="cat-count" id="count-all">0</span></div>
+            <div class="cat-item" onclick="filterCategory('LIVE')">LIVE <span class="cat-count" id="count-live">0</span></div>
+            <div class="cat-item" onclick="filterCategory('UPCOMING')">UPCOMING <span class="cat-count" id="count-upcoming">0</span></div>
+            <div class="cat-item" onclick="filterCategory('FINISHED')">FINISHED <span class="cat-count" id="count-finished">0</span></div>
+        </div>
+
+        <div class="channel-section" id="channel-list">
+            <p style="text-align: center; color: var(--text-gray);">ম্যাচ লোড হচ্ছে...</p>
+        </div>
+    </div>
+
+    <div id="live-tv-view">
+        <div class="header">
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <i class="fas fa-arrow-left" onclick="backToHome()"></i>
+                <div class="logo-text">Live <span>TV</span></div>
+            </div>
+            <div>
+                <i class="fas fa-search" style="font-size: 18px; color: white;" onclick="toggleTvSearch()"></i>
+            </div>
+        </div>
+
+        <div class="search-container" id="tv-search-container">
+            <div class="search-box-wrapper">
+                <input type="text" id="tv-search-input" placeholder="চ্যানেল খুঁজুন..." oninput="filterLiveTvChannels()"/>
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <div class="cat-scroll" id="tv-category-container" style="margin-top: 5px;">
+            <div class="cat-item tv-cat active" onclick="filterTvCategory('ALL')">ALL CHANNELS</div>
+            <div class="cat-item tv-cat" onclick="filterTvCategory('SPORTS')">SPORTS</div>
+            <div class="cat-item tv-cat" onclick="filterTvCategory('ENTERTAINMENT')">ENTERTAINMENT</div>
+            <div class="cat-item tv-cat" onclick="filterTvCategory('NEWS')">NEWS</div>
+        </div>
+
+        <div class="live-tv-grid" id="live-tv-container">
+            <p style="text-align: center; color: gray; grid-column: span 3;">লোডিং টিভি চ্যানেল...</p>
+        </div>
+    </div>
+
+    <div id="match-details-view" style="display: none;">
+        <div class="details-header">
+            <button class="back-btn" onclick="goBackToPreviousView()"><i class="fas fa-arrow-left"></i> Back</button>
+            <div class="details-title" id="details-view-title">BD BOX TV</div>
+            <div style="width:70px;"></div>
+        </div>
+
+        <div class="player-container">
+            <div id="videojs-wrapper">
+                <video id="main-video" class="video-js vjs-default-skin vjs-big-play-centered vjs-fluid" controls="controls" preload="auto" poster=""></video>
+            </div>
+            <div id="embed-wrapper" style="display: none; width: 100%; aspect-ratio: 16/9; background: #000;"></div>
+        </div>
+
+        <div class="score-bar" id="match-score-bar-container" style="display: none;">
+            <span class="score-tag">SCORE</span>
+            <div class="score-wrapper">
+                <marquee class="score-marquee" id="match-score-notice" scrollamount="4">লোডিং স্কোর...</marquee>
+            </div>
+        </div>
+
+        <div class="channel-section" id="selected-match-card-container"></div>
+
+        <div class="channel-section" style="margin-top: 5px;">
+            <div class="server-section-title"><i class="fas fa-server"></i> Select Server to Watch</div>
+            <div class="server-btn-container" id="server-buttons-list"></div>
+        </div>
+    </div>
+
+    <div class="bottom-nav">
+        <a href="javascript:void(0)" class="nav-item active" onclick="backToHome()" id="nav-home">
+            <i class="fas fa-home"></i>Home
+        </a>
+        <a href="javascript:void(0)" class="nav-item" onclick="showLiveTV()" id="nav-live">
+            <i class="fas fa-tv"></i>Live TV
+        </a>
+        <a href="javascript:void(0)" class="nav-item">
+            <i class="fas fa-film"></i>Movies
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.10.0/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-contrib-dash/5.1.1/videojs-contrib-dash.min.js"></script>
+
+    <script type="text/javascript">
+    //<![CDATA[
+        let navigationSource = 'home'; 
+        let allChannelsData = {};
+        let liveTvChannelsData = {}; 
+        let currentTvCategory = 'ALL'; 
+        let currentAlertMessage = "বর্তমানে কোনো বিশেষ ঘোষণা নেই!";
+        let globalScoreNotice = "কোনো আপডেট নেই।";
+        let countdownIntervals = [];
+
+        function openMenu() {
+            document.getElementById("sideNav").style.width = "250px";
+            document.getElementById("overlay").style.display = "block";
+        }
+        function closeMenu() {
+            document.getElementById("sideNav").style.width = "0";
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        var homePlayer = videojs('home-video', { fluid: true });
+        var mainPlayer = videojs('main-video', { fluid: true });
+
+        function forceStopHomePlayer() {
+            if (homePlayer) { try { homePlayer.pause(); homePlayer.muted(true); } catch(e) {} }
+        }
+
+        function changeStream(url) {
+            window.scrollTo({top: 0, behavior: 'smooth'}); 
+            const videojsWrapper = document.getElementById('videojs-wrapper');
+            const embedWrapper = document.getElementById('embed-wrapper');
+            
+            forceStopHomePlayer();
+            if (mainPlayer) mainPlayer.pause();
+
+            if (url.includes('<iframe') || url.includes('<script') || !url.startsWith('http')) {
+                videojsWrapper.style.display = 'none';
+                embedWrapper.style.display = 'block';
+                embedWrapper.innerHTML = url;
+                const iframe = embedWrapper.querySelector('iframe');
+                if (iframe) {
+                    iframe.style.width = '100%'; iframe.style.height = '100%'; iframe.style.border = 'none';
+                    iframe.setAttribute('sandbox', 'allow-scripts allow-same-origin allow-fullscreen allow-forms');
+                }
+            } else {
+                embedWrapper.style.display = 'none';
+                embedWrapper.innerHTML = ''; 
+                videojsWrapper.style.display = 'block';
+                
+                let streamType = 'application/x-mpegURL';
+                if (url.includes('.mpd')) streamType = 'application/dash+xml';
+                else if (url.includes('.mp4')) streamType = 'video/mp4';
+                
+                mainPlayer.src({ src: url, type: streamType });
+                mainPlayer.load();
+                setTimeout(function() {
+                    mainPlayer.play().catch(function(error) {
+                        mainPlayer.muted(true); mainPlayer.play();
+                    });
+                }, 100);
+            }
+        }
+
+        // --- Auto Random Online Counter (ফায়ারবেসের বিকল্প) ---
+        let baseOnlineCount = 1500;
+        setInterval(() => {
+            let fluctuation = Math.floor(Math.random() * 41) - 20; // -20 থেকে +20
+            let currentOnline = baseOnlineCount + fluctuation;
+            document.getElementById('online-btn').innerHTML = '<i class="fas fa-users"></i> Online: ' + currentOnline;
+        }, 3500);
+        document.getElementById('online-btn').innerHTML = '<i class="fas fa-users"></i> Online: ' + baseOnlineCount;
+
+        // --- Fetch Data from Blogger ---
+        function loadBloggerData() {
+            fetch('/feeds/posts/default?alt=json&max-results=150')
+            .then(res => res.json())
+            .then(data => {
+                let entries = data.feed.entry || [];
+                allChannelsData = {};
+                liveTvChannelsData = {};
+
+                entries.forEach(entry => {
+                    let title = entry.title.$t;
+                    let rawContent = entry.content.$t;
+                    let textContent = rawContent.replace(/<[^>]+>/g, '\n'); 
+                    let labels = entry.category ? entry.category.map(c => c.term.toUpperCase()) : [];
+                    
+                    let getVal = (key) => {
+                        let regex = new RegExp(key + ":\\s*(.*)", "i");
+                        let match = textContent.match(regex);
+                        return match ? match[1].trim() : "";
+                    };
+
+                    if(labels.includes("CONFIG")) {
+                        let notice = getVal("Notice");
+                        if(notice) document.getElementById('notice').innerText = notice;
+                        
+                        let banner = getVal("Banner");
+                        if(banner) document.getElementById('banner-img').src = banner;
+                        
+                        let telegram = getVal("Telegram");
+                        if(telegram) {
+                            document.getElementById('join-btn').href = telegram;
+                            document.getElementById('telegram-menu-link').href = telegram;
+                        }
+
+                        let homeVideo = getVal("HomeVideo");
+                        if(homeVideo) changeStreamForHome(homeVideo);
+
+                        let alertMsg = getVal("Alert");
+                        if(alertMsg) {
+                            currentAlertMessage = alertMsg;
+                            document.getElementById('noti-count').innerText = "1";
+                        }
+                        
+                        let scoreMsg = getVal("ScoreNotice");
+                        if(scoreMsg) globalScoreNotice = scoreMsg;
+
+                    } else if(labels.includes("LIVETV")) {
+                        liveTvChannelsData[entry.id.$t] = {
+                            name: title,
+                            logo: getVal("Logo") || "https://placehold.co/100",
+                            link: getVal("Link"),
+                            tv_score_notice: getVal("Notice"),
+                            category: labels.find(l => l !== "LIVETV") || "ALL"
+                        };
+                    } else {
+                        let status = labels.includes("LIVE") ? "LIVE" : labels.includes("FINISHED") ? "FINISHED" : "UPCOMING";
+                        allChannelsData[entry.id.$t] = {
+                            match_title: title,
+                            team1_name: getVal("Team1") || "TBA",
+                            team2_name: getVal("Team2") || "TBA",
+                            logo1: getVal("Logo1") || "https://placehold.co/100",
+                            logo2: getVal("Logo2") || "https://placehold.co/100",
+                            link: getVal("Link"),
+                            tag: getVal("Tag") || "HOT",
+                            status: status,
+                            match_time: getVal("Time")
+                        };
+                    }
+                });
+                
+                updateCategoryCountsAndRender();
+                if (navigationSource === 'livetv') renderLiveTvChannels();
+            }).catch(err => console.log("Error loading data", err));
+        }
+
+        function changeStreamForHome(url) {
+            if(url && homePlayer) {
+                let streamType = 'application/x-mpegURL';
+                if (url.includes('.mpd')) streamType = 'application/dash+xml';
+                else if (url.includes('.mp4')) streamType = 'video/mp4';
+                homePlayer.src({ src: url, type: streamType });
+            }
+        }
+
+        document.getElementById('setting-icon').onclick = () => alert('BD BOX TV\nVersion: 2.0.0 (Blogger Edition)\nStatus: Connected');
+        document.getElementById('alert-btn').onclick = () => alert(currentAlertMessage);
+        document.getElementById('bell-icon').onclick = () => alert('Notification:\n' + currentAlertMessage);
+
+        function showLiveTV() {
+            navigationSource = 'livetv'; 
+            forceStopHomePlayer();
+            document.getElementById('home-page-view').style.display = 'none';
+            document.getElementById('match-details-view').style.display = 'none';
+            document.getElementById('live-tv-view').style.display = 'block';
+            document.getElementById('nav-home').classList.remove('active');
+            document.getElementById('nav-live').classList.add('active');
+            document.getElementById('tv-search-container').style.display = 'none';
+            document.getElementById('tv-search-input').value = '';
+            renderLiveTvChannels();
+        }
+
+        function toggleTvSearch() {
+            const searchContainer = document.getElementById('tv-search-container');
+            if(searchContainer.style.display === 'block') {
+                searchContainer.style.display = 'none';
+                document.getElementById('tv-search-input').value = '';
+                renderLiveTvChannels();
+            } else {
+                searchContainer.style.display = 'block';
+                document.getElementById('tv-search-input').focus();
+            }
+        }
+
+        function filterTvCategory(category) {
+            currentTvCategory = category;
+            const items = document.querySelectorAll('.tv-cat');
+            items.forEach(item => item.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            renderLiveTvChannels();
+        }
+
+        function filterLiveTvChannels() { renderLiveTvChannels(); }
+
+        function renderLiveTvChannels() {
+            const container = document.getElementById('live-tv-container');
+            const searchQuery = document.getElementById('tv-search-input').value.toLowerCase().trim();
+            container.innerHTML = ""; 
+
+            const keys = Object.keys(liveTvChannelsData);
+            if(keys.length === 0) {
+                container.innerHTML = `<p style="text-align: center; color: gray; grid-column: span 3;">কোনো চ্যানেল নেই</p>`;
+                return;
+            }
+
+            let showCount = 0;
+            keys.forEach(key => {
+                const item = liveTvChannelsData[key];
+                const channelName = (item.name || '').toLowerCase();
+                const channelCat = (item.category || 'ALL').toUpperCase();
+
+                if(currentTvCategory !== 'ALL' && channelCat !== currentTvCategory) return;
+                if(searchQuery !== "" && !channelName.includes(searchQuery)) return;
+
+                showCount++;
+                const box = document.createElement('div');
+                box.className = 'tv-channel-box';
+                box.onclick = () => openLiveTVStream(item.name, item.link, item.tv_score_notice);
+                box.innerHTML = `<img src="${item.logo}" alt="${item.name}"><span class="tv-channel-name">${item.name}</span>`;
+                container.appendChild(box);
+            });
+
+            if(showCount === 0) container.innerHTML = `<p style="text-align: center; color: gray; grid-column: span 3;">এই ক্যাটাগরিতে কোনো চ্যানেল মিলল না!</p>`;
+        }
+
+        function openLiveTVStream(name, link, noticeText) {
+            document.getElementById('live-tv-view').style.display = 'none';
+            document.getElementById('match-details-view').style.display = 'block';
+            document.getElementById('details-view-title').innerText = name;
+            
+            const scoreBarContainer = document.getElementById('match-score-bar-container');
+            const scoreTagEl = scoreBarContainer.querySelector('.score-tag');
+            scoreTagEl.innerText = "NOTICE"; 
+            scoreTagEl.style.background = "#e11d48";
+            scoreTagEl.style.color = "#ffffff";
+            scoreBarContainer.style.display = "flex";
+
+            document.getElementById('match-score-notice').innerText = noticeText || globalScoreNotice;
+
+            document.getElementById('selected-match-card-container').innerHTML = `<h2 style="color:white; text-align:center; padding: 10px;">${name}</h2>`;
+            const serverContainer = document.getElementById('server-buttons-list');
+            serverContainer.innerHTML = `<button class="server-stream-btn" id="live-tv-direct-btn"><i class="fas fa-play-circle"></i> Load Stream</button>`;
+            
+            document.getElementById('live-tv-direct-btn').onclick = function() { changeStream(link); };
+            changeStream(link);
+        }
+
+        function goBackToPreviousView() {
+            if (mainPlayer) mainPlayer.pause();
+            document.getElementById('embed-wrapper').innerHTML = ''; 
+            if (navigationSource === 'livetv') {
+                document.getElementById('match-details-view').style.display = 'none';
+                document.getElementById('live-tv-view').style.display = 'block';
+            } else {
+                backToHome();
+            }
+        }
+
+        function updateCategoryCountsAndRender() {
+            let totalAll = 0, totalLive = 0, totalUpcoming = 0, totalFinished = 0;
+            Object.keys(allChannelsData).forEach(key => {
+                const ch = allChannelsData[key];
+                totalAll++;
+                if (ch.status === 'LIVE') totalLive++;
+                else if (ch.status === 'UPCOMING') totalUpcoming++;
+                else if (ch.status === 'FINISHED') totalFinished++;
+            });
+            document.getElementById('count-all').innerText = totalAll;
+            document.getElementById('count-live').innerText = totalLive;
+            document.getElementById('count-upcoming').innerText = totalUpcoming;
+            document.getElementById('count-finished').innerText = totalFinished;
+            
+            const activeCatEl = document.querySelector('.cat-item.active');
+            const activeCategory = activeCatEl ? activeCatEl.getAttribute('onclick').match(/'([^']+)'/)[1] : 'ALL';
+            renderChannels(activeCategory);
+        }
+
+        function startCountdowns() {
+            countdownIntervals.forEach(clearInterval);
+            countdownIntervals = [];
+            const elements = document.querySelectorAll('.upcoming-countdown');
+            elements.forEach(el => {
+                const targetTime = new Date(el.getAttribute('data-time')).getTime();
+                if(isNaN(targetTime)) return el.innerText = "Time TBD";
+                
+                const updateTimer = () => {
+                    const now = new Date().getTime();
+                    const diff = targetTime - now;
+                    if (diff <= 0) { el.innerText = "0m 0s left"; return; }
+                    const hours = Math.floor(diff / (1000 * 60 * 60));
+                    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+                    let timeStr = "";
+                    if (hours > 0) timeStr += `${hours}h `;
+                    timeStr += `${minutes}m ${seconds}s left`;
+                    el.innerText = timeStr;
+                };
+                updateTimer();
+                const interval = setInterval(updateTimer, 1000);
+                countdownIntervals.push(interval);
+            });
+        }
+
+        function openMatchDetails(key) {
+            navigationSource = 'home'; 
+            const ch = allChannelsData[key];
+            if(!ch) return;
+            
+            forceStopHomePlayer();
+            document.getElementById('home-page-view').style.display = 'none';
+            document.getElementById('match-details-view').style.display = 'block';
+            document.getElementById('details-view-title').innerText = "BD BOX TV";
+            
+            const scoreBarContainer = document.getElementById('match-score-bar-container');
+            const scoreTagEl = scoreBarContainer.querySelector('.score-tag');
+            scoreTagEl.innerText = "SCORE";
+            scoreTagEl.style.background = "#facc15";
+            scoreTagEl.style.color = "#000000";
+            scoreBarContainer.style.display = "flex";
+            document.getElementById('match-score-notice').innerText = globalScoreNotice;
+
+            const cardContainer = document.getElementById('selected-match-card-container');
+            const serverContainer = document.getElementById('server-buttons-list');
+            cardContainer.innerHTML = "";
+            serverContainer.innerHTML = "";
+            
+            let matchDateObj = ch.match_time ? new Date(ch.match_time) : new Date();
+            let optionsTime = { hour: '2-digit', minute: '2-digit', hour12: true };
+            let timeString = matchDateObj.toLocaleTimeString('en-US', optionsTime);
+            
+            let middleContent = '';
+            let cardClass = 'channel-card';
+            
+            if (ch.status === 'LIVE') {
+                cardClass += ' live-card';
+                middleContent = `<span class="vs-text">VS</span><div class="live-now-text">LIVE NOW</div>`;
+            } else if (ch.status === 'FINISHED') {
+                let displayEndDate = new Date().toLocaleDateString('en-US', { day: '2-digit', month: 'short', year: 'numeric' });
+                middleContent = `<span class="vs-text">VS</span><div class="finished-box"><div class="finished-date-text">${displayEndDate}</div><div class="finished-text">FINISHED</div></div>`;
+            } else {
+                let longDateOptions = { weekday: 'long', day: '2-digit', month: 'short', year: 'numeric' };
+                let longDateString = matchDateObj.toLocaleDateString('en-US', longDateOptions);
+                middleContent = `<div class="upcoming-time">${timeString}</div><div class="upcoming-date">${longDateString}</div><div class="upcoming-countdown" data-time="${matchDateObj.toISOString()}">Loading...</div>`;
+            }
+            
+            cardContainer.innerHTML = `<div class="${cardClass}" style="cursor: default;"><div class="hot-tag"><i class="fas fa-fire"></i> ${ch.tag}</div><div class="card-header">${ch.match_title}</div><div class="card-body"><div class="team-box"><img src="${ch.logo1}" class="ch-logo"><div class="team-name">${ch.team1_name}</div></div><div class="status-box">${middleContent}</div><div class="team-box"><img src="${ch.logo2}" class="ch-logo"><div class="team-name">${ch.team2_name}</div></div></div></div>`;
+            
+            const rawLinks = ch.link || "";
+            const linkArray = rawLinks.split(',').map(l => l.trim()).filter(l => l !== "");
+            if(linkArray.length === 0) {
+                serverContainer.innerHTML = `<p style="text-align: center; color: var(--text-gray);">কোনো স্ট্রিমিং সার্ভার পাওয়া যায়নি!</p>`;
+            } else {
+                linkArray.forEach((link, index) => {
+                    const btn = document.createElement('button');
+                    btn.className = 'server-stream-btn';
+                    btn.innerHTML = `<i class="fas fa-play-circle"></i> Server ${index + 1}`;
+                    btn.onclick = function() { changeStream(link); };
+                    serverContainer.appendChild(btn);
+                });
+                changeStream(linkArray[0]);
+            }
+            startCountdowns();
+        }
+
+        function backToHome() {
+            navigationSource = 'home';
+            if(mainPlayer && !mainPlayer.paused()) mainPlayer.pause(); 
+            document.getElementById('embed-wrapper').innerHTML = ''; 
+            document.getElementById('match-score-bar-container').style.display = "none";
+            if(homePlayer) homePlayer.muted(false); 
+            document.getElementById('match-details-view').style.display = 'none';
+            document.getElementById('live-tv-view').style.display = 'none';
+            document.getElementById('home-page-view').style.display = 'block';
+            document.getElementById('nav-live').classList.remove('active');
+            document.getElementById('nav-home').classList.add('active');
+        }
+
+        function renderChannels(filter) {
+            const listContainer = document.getElementById('channel-list');
+            listContainer.innerHTML = ""; 
+            let keys = Object.keys(allChannelsData);
+
+            keys.sort((a, b) => {
+                const chA = allChannelsData[a];
+                const chB = allChannelsData[b];
+                if (chA.status === 'LIVE' && chB.status !== 'LIVE') return -1;
+                if (chA.status !== 'LIVE' && chB.status === 'LIVE') return 1;
+                if (chA.status === 'FINISHED' && chB.status !== 'FINISHED') return 1;
+                if (chA.status !== 'FINISHED' && chB.status === 'FINISHED') return -1;
+                const timeA = chA.match_time ? new Date(chA.match_time).getTime() : Infinity;
+                const timeB = chB.match_time ? new Date(chB.match_time).getTime() : Infinity;
+                return timeA - timeB; 
+            });
+
+            if(keys.length === 0) { 
+                listContainer.innerHTML = `<p style="text-align: center; color: var(--text-gray);">কোনো চ্যানেল পাওয়া যায়নি!</p>`; 
+                return; 
+            }
+            
+            let matchCount = 0;
+            keys.forEach(key => {
+                const ch = allChannelsData[key];
+                if (filter !== 'ALL' && ch.status !== filter) return;
+                matchCount++;
+                
+                let matchDateObj = ch.match_time ? new Date(ch.match_time) : new Date();
+                let optionsTime = { hour: '2-digit', minute: '2-digit', hour12: true };
+                let timeString = matchDateObj.toLocaleTimeString('en-US', optionsTime);
+                
+                let middleContent = '';
+                let cardClass = 'channel-card';
+                
+                if (ch.status === 'LIVE') { 
+                    cardClass += ' live-card'; 
+                    middleContent = `<span class="vs-text">VS</span><div class="live-now-text">LIVE NOW</div>`; 
+                } else if (ch.status === 'FINISHED') { 
+                    let displayEndDate = new Date().toLocaleDateString('en-US', { day: '2-digit', month: 'short', year: 'numeric' });
+                    middleContent = `<span class="vs-text">VS</span><div class="finished-box"><div class="finished-date-text">${displayEndDate}</div><div class="finished-text">FINISHED</div></div>`; 
+                } else { 
+                    let longDateOptions = { weekday: 'long', day: '2-digit', month: 'short', year: 'numeric' };
+                    let longDateString = matchDateObj.toLocaleDateString('en-US', longDateOptions);
+                    middleContent = `<div class="upcoming-time">${timeString}</div><div class="upcoming-date">${longDateString}</div><div class="upcoming-countdown" data-time="${matchDateObj.toISOString()}">Loading...</div>`; 
+                }
+                
+                const cardHtml = `<div class="${cardClass}" onclick="openMatchDetails('${key}')"><div class="hot-tag"><i class="fas fa-fire"></i> ${ch.tag}</div><div class="card-header">${ch.match_title}</div><div class="card-body"><div class="team-box"><img src="${ch.logo1}" class="ch-logo"><div class="team-name">${ch.team1_name}</div></div><div class="status-box">${middleContent}</div><div class="team-box"><img src="${ch.logo2}" class="ch-logo"><div class="team-name">${ch.team2_name}</div></div></div></div>`;
+                listContainer.innerHTML += cardHtml;
+            });
+            if(matchCount === 0) listContainer.innerHTML = `<p style="text-align: center; color: var(--text-gray);">এই ক্যাটাগরিতে কোনো চ্যানেল নেই!</p>`; 
+            else startCountdowns();
+        }
+
+        function filterCategory(type) {
+            const items = document.querySelectorAll('.cat-item');
+            items.forEach(item => item.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            backToHome(); 
+            renderChannels(type);
+        }
+
+        // Initialize Call
+        window.onload = loadBloggerData;
+
+    //]]>
+    </script>
+</body>
+</html>
